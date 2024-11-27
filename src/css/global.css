@@ -10,6 +10,10 @@
   --white-color: #fff;
   --body-color: #0a0a0b;
   --container-color: #111213;
+
+  --header-height: 70px;
+
+  --hover-effect: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -27,4 +31,24 @@ body {
   @media screen and (min-width: 768px) {
     max-width: 1072px;
   }
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--title-color);
+}
+
+.descr {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.button {
+  background-color: var(--first-color);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--white-color);
 }
