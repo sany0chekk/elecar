@@ -10,12 +10,109 @@
       rel="stylesheet"
     />
     <title>Title</title>
-    <link rel="stylesheet" crossorigin href="/elecar/assets/index-N4ge0gdX.css">
+    <script type="module" crossorigin src="/elecar/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/elecar/assets/index-CjvJHq3z.css">
   </head>
   <body>
-    <header>
-  <p>Hello world</p>
+    <header class="header">
+  <div class="container header-container">
+    <a href="#" class="header-logo">
+      <svg>
+        <use href="/elecar/assets/icons-BPeKC6GQ.svg#logo"></use>
+      </svg>
+    </a>
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a href="#" class="header-nav-link">Home</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#" class="header-nav-link">About</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#" class="header-nav-link">Popular</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#" class="header-nav-link">Featured</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="header-menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <div class="header-menu">
+    <ul class="header-menu-list">
+      <li class="header-menu-item">
+        <a href="#" class="header-menu-link">Home</a>
+      </li>
+      <li class="header-menu-item">
+        <a href="#" class="header-menu-link">About</a>
+      </li>
+      <li class="header-menu-item">
+        <a href="#" class="header-menu-link">Popular</a>
+      </li>
+      <li class="header-menu-item">
+        <a href="#" class="header-menu-link">Featured</a>
+      </li>
+    </ul>
+  </div>
 </header>
+
+    <main>
+      <section class="hero">
+  <div class="container hero-container">
+    <h1 class="hero-title">Choose The Best Car</h1>
+    <h2 class="hero-car-title">Porsche Mission E</h2>
+    <p class="hero-car-subtitle">
+      <span>
+        <svg>
+          <use href="/elecar/assets/icons-BPeKC6GQ.svg#flashlight"></use>
+        </svg>
+      </span>
+      Electric car
+    </p>
+    <img
+      srcset="/elecar/assets/hero-min-yy5OB8e1.png 1x, /elecar/assets/hero@2x-min-Cz79q7Rm.png 2x"
+      src="/elecar/assets/hero-min-yy5OB8e1.png"
+      alt="Porsche Mission E"
+      class="hero-car-img"
+    />
+    <ul class="hero-car-list">
+      <li class="hero-car-item">
+        <span class="hero-car-item-icon">
+          <svg>
+            <use href="/elecar/assets/icons-BPeKC6GQ.svg#temperature"></use>
+          </svg>
+        </span>
+        <h3 class="hero-car-item-title">
+          <span id="car-temperature">0</span>°
+        </h3>
+        <p class="hero-car-item-descr">TEMPERATURE</p>
+      </li>
+      <li class="hero-car-item">
+        <span class="hero-car-item-icon">Km</span>
+        <h3 class="hero-car-item-title"><span id="car-speed">0</span></h3>
+        <p class="hero-car-item-descr">MILEAGE</p>
+      </li>
+      <li class="hero-car-item">
+        <span class="hero-car-item-icon">
+          <svg>
+            <use href="/elecar/assets/icons-BPeKC6GQ.svg#flashlight"></use>
+          </svg>
+        </span>
+        <h3 class="hero-car-item-title"><span id="car-battery">0</span>%</h3>
+        <p class="hero-car-item-descr">BATTERY</p>
+      </li>
+    </ul>
+    <button class="hero-car-btn" id="startStopBtn">START</button>
+  </div>
+</section>
+
+    </main>
 
   </body>
 </html>
