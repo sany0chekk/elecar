@@ -1,0 +1,30 @@
+:root {
+  --main-font: "Exo", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+
+  --first-color-alt: #306ad9;
+  --first-color: #4177dc;
+  --title-color: #f1f2f3;
+  --text-color: #babec4;
+  --text-color-light: #888b91;
+  --white-color: #fff;
+  --body-color: #0a0a0b;
+  --container-color: #111213;
+}
+
+body {
+  background-color: var(--body-color);
+
+  font-family: var(--main-font);
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 1072px;
+  }
+}
