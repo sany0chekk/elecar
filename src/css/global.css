@@ -23,6 +23,11 @@ body {
   color: var(--text-color);
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   max-width: 360px;
   margin: 0 auto;
@@ -37,6 +42,10 @@ body {
   font-weight: 600;
   font-size: 20px;
   color: var(--title-color);
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
 }
 
 .descr {
@@ -51,4 +60,15 @@ body {
   font-weight: 500;
   font-size: 15px;
   color: var(--white-color);
+
+  transition: background-color var(--hover-effect);
+
+  &:hover,
+  &:focus {
+    background-color: var(--first-color-alt);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
