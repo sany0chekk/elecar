@@ -1,0 +1,72 @@
+.cars {
+  padding-top: 88px;
+  padding-bottom: 57px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 211px;
+    padding-bottom: 50px;
+  }
+}
+
+.cars-container {
+  @media screen and (max-width: 767px) {
+    max-width: 767px;
+    padding-right: 0px;
+  }
+}
+
+.cars-card-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--title-color);
+}
+
+.cars-card-subtitle {
+  margin-bottom: 12px;
+
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.cars-card-img {
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.cars-card-benefits {
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 19px;
+}
+
+.cars-card-benefits-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cars-card-benefits-icon {
+  font-size: 10px;
+  color: var(--text-color-light);
+}
+
+.cars-card-benefits-text {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.cars-card-price {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--title-color);
+}
+
+.cars-card-btn {
+  & svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--white-color);
+  }
+}

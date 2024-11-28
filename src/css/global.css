@@ -42,6 +42,7 @@ main {
   font-weight: 600;
   font-size: 20px;
   color: var(--title-color);
+  text-transform: capitalize;
 
   @media screen and (min-width: 768px) {
     font-size: 24px;
@@ -71,4 +72,71 @@ main {
   @media screen and (min-width: 768px) {
     font-size: 16px;
   }
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: 870px;
+  }
+}
+
+.swiper-pagination {
+  padding-top: 32px;
+  position: relative !important;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 48px;
+  }
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--first-color) !important;
+}
+
+.card {
+  position: relative;
+  padding: 32px 24px 24px;
+
+  background-color: var(--container-color);
+  border-radius: 16px;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 16px 0;
+
+  background-color: var(--first-color);
+  padding: 13px 18px;
+
+  transition: background-color var(--hover-effect);
+
+  &:hover {
+    background-color: var(--first-color-alt);
+  }
+}
+
+.item-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.item-2 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.item-3 {
+  grid-area: 3 / 1 / 4 / 2;
 }
