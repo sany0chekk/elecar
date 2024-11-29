@@ -15,17 +15,8 @@
   }
 }
 
-.cars-card-title {
-  font-weight: 600;
-  font-size: 20px;
-  color: var(--title-color);
-}
-
 .cars-card-subtitle {
   margin-bottom: 12px;
-
-  font-weight: 400;
-  font-size: 15px;
 }
 
 .cars-card-img {
@@ -55,18 +46,4 @@
 .cars-card-benefits-text {
   font-weight: 400;
   font-size: 12px;
-}
-
-.cars-card-price {
-  font-weight: 600;
-  font-size: 16px;
-  color: var(--title-color);
-}
-
-.cars-card-btn {
-  & svg {
-    width: 20px;
-    height: 20px;
-    fill: var(--white-color);
-  }
 }

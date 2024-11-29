@@ -113,6 +113,23 @@ main {
   flex-direction: column;
 }
 
+.card-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--title-color);
+}
+
+.card-subtitle {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.card-price {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--title-color);
+}
+
 .card-btn {
   position: absolute;
   bottom: 0;
@@ -127,16 +144,10 @@ main {
   &:hover {
     background-color: var(--first-color-alt);
   }
-}
 
-.item-1 {
-  grid-area: 1 / 1 / 2 / 2;
-}
-
-.item-2 {
-  grid-area: 2 / 3 / 3 / 4;
-}
-
-.item-3 {
-  grid-area: 3 / 1 / 4 / 2;
+  & svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--white-color);
+  }
 }
