@@ -1,8 +1,10 @@
 .store {
   padding-top: 56px;
+  padding-bottom: 48px;
 
   @media screen and (min-width: 768px) {
     padding-top: 72px;
+    padding-bottom: 72px;
   }
 }
 
@@ -65,8 +67,12 @@
   grid-template-columns: 228px;
 
   @media screen and (min-width: 768px) {
-    grid-template-columns: repeat(3, 248px);
+    grid-template-columns: repeat(2, 248px);
     gap: 72px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(3, 248px);
   }
 }
 

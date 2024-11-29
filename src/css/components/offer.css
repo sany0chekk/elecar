@@ -1,0 +1,98 @@
+.offer {
+  padding-top: 56px;
+  padding-bottom: 32px;
+
+  background-image: url("/images/subscribe-bg-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi) {
+    background-image: url("/images/subscribe-bg@2x-min.jpg");
+  }
+}
+
+.offer-container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 80px;
+  }
+}
+
+.offer-content {
+  margin-bottom: 64px;
+  padding: 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    margin: 0 auto;
+    margin-bottom: 64px;
+    padding: 0;
+
+    width: 70%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 0;
+
+    max-width: 375px;
+    width: 100%;
+    align-items: flex-start;
+  }
+}
+
+.offer-title {
+  margin-bottom: 32px;
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    text-align: left;
+  }
+}
+
+.offer-descr {
+  margin-bottom: 48px;
+
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    text-align: left;
+  }
+}
+
+.offer-btn {
+  padding: 14px 32px;
+}
+
+.offer-img {
+  margin-left: auto;
+
+  @media screen and (min-width: 768px) {
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 0;
+  }
+}
