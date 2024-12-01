@@ -1,0 +1,33 @@
+.partners {
+  padding: 56px 0;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 72px;
+    padding-bottom: 64px;
+  }
+}
+
+.partners-list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 40px);
+  grid-template-rows: repeat(2, 40px);
+  gap: 60px 64px;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(2, 50px);
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat(1, 50px);
+    gap: 106px;
+  }
+}
+
+.partners-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

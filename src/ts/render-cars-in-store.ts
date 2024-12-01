@@ -49,8 +49,6 @@ filtersButtons?.forEach((button: HTMLElement) => {
         ? cars
         : cars.filter((car) => car.brand.toLowerCase() === brand.toLowerCase());
 
-    console.log(filterCars);
-
     renderCars(filterCars);
   });
 });
