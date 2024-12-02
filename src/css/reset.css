@@ -31,6 +31,12 @@ button {
   border: none;
 }
 
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
 img {
   display: block;
   max-width: 100%;

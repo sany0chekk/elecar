@@ -1,12 +1,13 @@
-import { eCars, ElectricCar } from "../api/electric-cars";
+import { Car, cars } from "../api/cars";
 
 const swiperList = document.querySelector<HTMLElement>(".swiper-wrapper");
 
-function renderCarsInSwiper(list: ElectricCar[]) {
+function renderCarsInSwiper(list: Car[]) {
   if (swiperList) {
     swiperList.innerHTML = list
-      .map(
-        (car: ElectricCar) => `
+      .map((car: Car) => {
+        if (car.type === "Electric") {
+          return `
           <li class="swiper-slide card cars-card">
           <h3 class="card-title cars-card-title">Porsche</h3>
           <p class="card-subtitle cars-card-subtitle">Turbo S</p>
@@ -46,16 +47,17 @@ function renderCarsInSwiper(list: ElectricCar[]) {
             </li>
           </ul>
           <p class="card-price cars-card-price">$${car.price}</p>
-          <button class="card-btn cars-card-btn" data-id="${car.id}">
+          <button class="card-btn cars-card-btn" id="buy-car-btn" data-id="${car.id}">
             <svg>
               <use href="./images/svg/icons.svg#shopping"></use>
             </svg>
           </button>
         </li>
-        `
-      )
+        `;
+        }
+      })
       .join("");
   }
 }
 
-renderCarsInSwiper(eCars);
+renderCarsInSwiper(cars);

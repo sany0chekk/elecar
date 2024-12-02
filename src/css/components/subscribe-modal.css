@@ -1,0 +1,26 @@
+.subscribe-dialog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.subscribe-dialog-input {
+  flex-grow: 1;
+  height: 40px;
+
+  background-color: var(--body-color);
+  padding: 0 20px;
+
+  border-radius: 4px;
+
+  color: var(--white-color);
+}
+
+.subscribe-dialog-btn {
+  padding: 0 20px;
+  height: 40px;
+}
