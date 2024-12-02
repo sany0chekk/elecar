@@ -79,6 +79,16 @@
 .store-item {
   display: flex;
   flex-direction: column;
+
+  background-image: url("/images/card-center-bg-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -20px;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi) {
+    background-image: url("/images/card-center-bg@2x-min.jpg");
+  }
 }
 
 .store-item-subtitle {

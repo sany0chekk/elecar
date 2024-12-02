@@ -15,6 +15,18 @@
   }
 }
 
+.cars-card {
+  background-image: url("/images/card-top-bg-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -20px -20px;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi) {
+    background-image: url("/images/card-top-bg@2x-min.jpg");
+  }
+}
+
 .cars-card-subtitle {
   margin-bottom: 12px;
 }
@@ -36,6 +48,14 @@
   display: flex;
   align-items: center;
   gap: 4px;
+}
+
+.card-card-benefits-icon {
+  & svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--white-color);
+  }
 }
 
 .cars-card-benefits-icon {
