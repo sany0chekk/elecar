@@ -13,7 +13,7 @@
     <script type="module" crossorigin src="/elecar/index.js"></script>
     <link rel="modulepreload" crossorigin href="/elecar/assets/vendor-8mki8isw.js">
     <link rel="stylesheet" crossorigin href="/elecar/assets/vendor-BUrcyj0q.css">
-    <link rel="stylesheet" crossorigin href="/elecar/assets/index-DeqJFh_z.css">
+    <link rel="stylesheet" crossorigin href="/elecar/assets/index-9rDxRV-i.css">
   </head>
   <body>
     <header class="header" id="home">
@@ -313,7 +313,9 @@
         Be the first to receive all the information about our products and new
         cars by email by subscribing to our mailing list.
       </p>
-      <button class="button offer-btn">Subscribe Now</button>
+      <button class="button offer-btn" id="open-subscribe-modal">
+        Subscribe Now
+      </button>
     </div>
     <picture class="offer-img">
       <source
@@ -463,6 +465,35 @@
     <p class="footer-rules-text">Bedimcode. All rights reserved</p>
   </div>
 </footer>
+
+
+    <div id="subscribe-modal" class="backdrop subscribe-backdrop">
+  <div class="dialog subscribe-dialog">
+    <button class="dialog-close subscribe-dialog-close">&#x2715;</button>
+    <h2 class="dialog-title subscibe-dialog-title">
+      Want to be the first to receive news?
+    </h2>
+    <form class="subscribe-dialog-form">
+      <input
+        type="email"
+        class="subscribe-dialog-input"
+        placeholder="example@gmail.com"
+      />
+      <button class="button subscribe-dialog-btn">Submit</button>
+    </form>
+  </div>
+</div>
+
+    <div class="backdrop" id="car-payment-modal">
+  <div class="dialog car-dialog">
+    <button class="dialog-close car-dialog-close">&#x2715;</button>
+    <div id="car-modal-content" class="car-dialog-content"></div>
+    <div class="car-dialog-btns">
+      <button class="button car-dialog-btn car-dialog-book">Book Now</button>
+      <button class="button car-dialog-btn car-dialog-cancel">Cancel</button>
+    </div>
+  </div>
+</div>
 
 
   </body>
