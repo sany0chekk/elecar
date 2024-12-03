@@ -22,7 +22,7 @@ function renderCars(list: Car[]) {
             car.id
           }">
             <svg>
-              <use href="./images/svg/icons.svg#shopping"></use>
+              <use href="/images/svg/icons.svg#shopping"></use>
             </svg>
           </button>
         </li>

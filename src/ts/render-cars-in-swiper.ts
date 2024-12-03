@@ -24,7 +24,7 @@ function renderCarsInSwiper(list: Car[]) {
              <li class="cars-card-benefits-item">
               <span class="card-card-benefits-icon">
               <svg>
-                <use href="./images/svg/icons.svg#speed"></use>
+                <use href="/images/svg/icons.svg#speed"></use>
               </svg>
               </span>
               <p class="cars-card-benefits-text">${car.acceleration} Sec</p>
@@ -32,7 +32,7 @@ function renderCarsInSwiper(list: Car[]) {
             <li class="cars-card-benefits-item">
               <span class="card-card-benefits-icon">
               <svg>
-                <use href="./images/svg/icons.svg#stats"></use>
+                <use href="/images/svg/icons.svg#stats"></use>
               </svg>
               </span>
               <p class="cars-card-benefits-text">${car.topSpeed} Km/h</p>
@@ -40,7 +40,7 @@ function renderCarsInSwiper(list: Car[]) {
             <li class="cars-card-benefits-item">
               <span class="card-card-benefits-icon">
               <svg>
-                <use href="./images/svg/icons.svg#charging"></use>
+                <use href="/images/svg/icons.svg#charging"></use>
               </svg>
               </span>
               <p class="cars-card-benefits-text">${car.type}</p>
@@ -49,7 +49,7 @@ function renderCarsInSwiper(list: Car[]) {
           <p class="card-price cars-card-price">$${car.price}</p>
           <button class="card-btn cars-card-btn buy-car-btn" data-id="${car.id}">
             <svg>
-              <use href="./images/svg/icons.svg#shopping"></use>
+              <use href="/images/svg/icons.svg#shopping"></use>
             </svg>
           </button>
         </li>
