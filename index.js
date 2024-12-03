@@ -15,7 +15,7 @@ import{S as M}from"./assets/vendor-8mki8isw.js";(function(){const e=document.cre
              <li class="cars-card-benefits-item">
               <span class="card-card-benefits-icon">
               <svg>
-                <use href="/images/svg/icons.svg#speed"></use>
+                <use href="./images/svg/icons.svg#speed"></use>
               </svg>
               </span>
               <p class="cars-card-benefits-text">${e.acceleration} Sec</p>
@@ -23,7 +23,7 @@ import{S as M}from"./assets/vendor-8mki8isw.js";(function(){const e=document.cre
             <li class="cars-card-benefits-item">
               <span class="card-card-benefits-icon">
               <svg>
-                <use href="/images/svg/icons.svg#stats"></use>
+                <use href="./images/svg/icons.svg#stats"></use>
               </svg>
               </span>
               <p class="cars-card-benefits-text">${e.topSpeed} Km/h</p>
@@ -31,7 +31,7 @@ import{S as M}from"./assets/vendor-8mki8isw.js";(function(){const e=document.cre
             <li class="cars-card-benefits-item">
               <span class="card-card-benefits-icon">
               <svg>
-                <use href="/images/svg/icons.svg#charging"></use>
+                <use href="./images/svg/icons.svg#charging"></use>
               </svg>
               </span>
               <p class="cars-card-benefits-text">${e.type}</p>
@@ -40,7 +40,7 @@ import{S as M}from"./assets/vendor-8mki8isw.js";(function(){const e=document.cre
           <p class="card-price cars-card-price">$${e.price}</p>
           <button class="card-btn cars-card-btn buy-car-btn" data-id="${e.id}">
             <svg>
-              <use href="/images/svg/icons.svg#shopping"></use>
+              <use href="./images/svg/icons.svg#shopping"></use>
             </svg>
           </button>
         </li>
@@ -57,7 +57,7 @@ import{S as M}from"./assets/vendor-8mki8isw.js";(function(){const e=document.cre
           <p class="card-price store-item-price">$${e.price.toLocaleString()}</p>
           <button class="card-btn store-item-btn buy-car-btn" data-id="${e.id}">
             <svg>
-              <use href="/images/svg/icons.svg#shopping"></use>
+              <use href="./images/svg/icons.svg#shopping"></use>
             </svg>
           </button>
         </li>
