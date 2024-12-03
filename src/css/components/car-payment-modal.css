@@ -5,10 +5,13 @@
 }
 
 .car-dialog-content {
-  margin-bottom: 50px;
-
   display: flex;
   flex-direction: column;
+}
+
+.car-dialog-message {
+  text-align: center;
+  font-size: 16px;
 }
 
 .car-dialog-img {
@@ -24,6 +27,10 @@
 .car-dialog-model {
   font-weight: 400;
   font-size: 18px;
+}
+
+.car-dialog-price {
+  margin-bottom: 50px;
 }
 
 .car-dialog-btns {

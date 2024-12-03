@@ -18,7 +18,7 @@ function renderCars(list: Car[]) {
             class="store-item-img" 
           />
           <p class="card-price store-item-price">$${car.price.toLocaleString()}</p>
-          <button class="card-btn store-item-btn" id="buy-car-btn" data-id="${
+          <button class="card-btn store-item-btn buy-car-btn" data-id="${
             car.id
           }">
             <svg>
