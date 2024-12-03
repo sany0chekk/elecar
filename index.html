@@ -13,7 +13,7 @@
     <script type="module" crossorigin src="/elecar/index.js"></script>
     <link rel="modulepreload" crossorigin href="/elecar/assets/vendor-8mki8isw.js">
     <link rel="stylesheet" crossorigin href="/elecar/assets/vendor-BUrcyj0q.css">
-    <link rel="stylesheet" crossorigin href="/elecar/assets/index-9rDxRV-i.css">
+    <link rel="stylesheet" crossorigin href="/elecar/assets/index-BRJWag_g.css">
   </head>
   <body>
     <header class="header" id="home">
@@ -150,7 +150,7 @@
   <div class="container cars-container">
     <h2 class="title cars-title"></h2>
     <div class="swiper">
-      <ul class="swiper-wrapper cars-list"></ul>
+      <ul class="swiper-wrapper cars-list car-list-container"></ul>
 
       <div class="swiper-pagination cars-pagination"></div>
     </div>
@@ -220,88 +220,7 @@
         </button>
       </li>
     </ul>
-    <ul class="store-list">
-      <li class="card store-item">
-        <h3 class="card-title store-item-title">Tesla</h3>
-        <p class="card-subtitle store-item-subtitle">Model X</p>
-        <img
-          srcset="/elecar/assets/t-model-x-min-jySU4bRj.png 1x, /elecar/assets/t-model-x@2x-min-Cia1ij3j.png 2x"
-          src="/elecar/assets/t-model-x-min-jySU4bRj.png"
-          alt="Car Image"
-          class="store-item-img"
-        />
-        <p class="card-price store-item-price">$98,900</p>
-        <button class="card-btn store-item-btn">
-          <svg>
-            <use href="/elecar/assets/icons-DhgeKvq5.svg#shopping"></use>
-          </svg>
-        </button>
-      </li>
-      <li class="card store-item">
-        <h3 class="card-title store-item-title">Tesla</h3>
-        <p class="card-subtitle store-item-subtitle">Model 3</p>
-        <img
-          srcset="/elecar/assets/t-model-3-min-U8w8QCKA.png 1x, /elecar/assets/t-model-3@2x-min-DzfwUpJS.png 2x"
-          src="/elecar/assets/t-model-3-min-U8w8QCKA.png"
-          alt="Car Image"
-          class="store-item-img"
-        />
-        <p class="card-price store-item-price">$45,900</p>
-        <button class="card-btn store-item-btn">
-          <svg>
-            <use href="/elecar/assets/icons-DhgeKvq5.svg#shopping"></use>
-          </svg>
-        </button>
-      </li>
-      <li class="card store-item">
-        <h3 class="card-title store-item-title">Audi</h3>
-        <p class="card-subtitle store-item-subtitle">E-tron</p>
-        <img
-          srcset="/elecar/assets/a-etron-min-CfQchf4K.png 1x, /elecar/assets/a-etron@2x-min-DnCLrm5g.png 2x"
-          src="/elecar/assets/a-etron-min-CfQchf4K.png"
-          alt="Car Image"
-          class="store-item-img"
-        />
-        <p class="card-price store-item-price">$175, 900</p>
-        <button class="card-btn store-item-btn">
-          <svg>
-            <use href="/elecar/assets/icons-DhgeKvq5.svg#shopping"></use>
-          </svg>
-        </button>
-      </li>
-      <li class="card store-item">
-        <h3 class="card-title store-item-title">Porsche</h3>
-        <p class="card-subtitle store-item-subtitle">Boxster 987</p>
-        <img
-          srcset="/elecar/assets/p-boxter-987-min-Ey8KuzOQ.png 1x, /elecar/assets/p-boxter-987@2x-min-CpfiD-_4.png 2x"
-          src="/elecar/assets/p-boxter-987-min-Ey8KuzOQ.png"
-          alt="Car Image"
-          class="store-item-img"
-        />
-        <p class="card-price store-item-price">$126,900</p>
-        <button class="card-btn store-item-btn">
-          <svg>
-            <use href="/elecar/assets/icons-DhgeKvq5.svg#shopping"></use>
-          </svg>
-        </button>
-      </li>
-      <li class="card store-item">
-        <h3 class="card-title store-item-title">Porsche</h3>
-        <p class="card-subtitle store-item-subtitle">Panamera</p>
-        <img
-          srcset="/elecar/assets/p-panamera-min-B3g74lIF.png 1x, /elecar/assets/p-panamera@2x-min-CKPojJyp.png 2x"
-          src="/elecar/assets/p-panamera-min-B3g74lIF.png"
-          alt="Car Image"
-          class="store-item-img"
-        />
-        <p class="card-price store-item-price">$126,900</p>
-        <button class="card-btn store-item-btn">
-          <svg>
-            <use href="/elecar/assets/icons-DhgeKvq5.svg#shopping"></use>
-          </svg>
-        </button>
-      </li>
-    </ul>
+    <ul class="store-list car-list-container"></ul>
   </div>
 </section>
 
@@ -488,10 +407,6 @@
   <div class="dialog car-dialog">
     <button class="dialog-close car-dialog-close">&#x2715;</button>
     <div id="car-modal-content" class="car-dialog-content"></div>
-    <div class="car-dialog-btns">
-      <button class="button car-dialog-btn car-dialog-book">Book Now</button>
-      <button class="button car-dialog-btn car-dialog-cancel">Cancel</button>
-    </div>
   </div>
 </div>
 
